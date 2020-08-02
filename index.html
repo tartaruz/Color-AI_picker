@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon" type="image/png" href="./favicon.ico">
+    <title>Text color guesser</title>
+    <script src="//unpkg.com/brain.js" defer></script> 
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="diagram"></div>
+    <div id="color">
+        <p>Sample text</p>
+        <div style="border: 3px solid black; padding: 10px;">
+            <div class="white"> White</div>
+            <div>Black</div>
+        </div>
+        <div id="guess"> Training the model...</div>
+    </div>
+        <div id="control">
+            <button id="white-button">White</button>
+            <button id="black-button">Black</button>
+        </div>
+        <button id="print-button">Print data-variable</button>
+
+    <div id="text"></div>
+</body>
+</html>
